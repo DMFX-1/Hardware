@@ -1,0 +1,24 @@
+[Eagle]
+Version="06 03 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/adafruit.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/audio jacks 3.5mm.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/rcl.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/Texas Instruments/Texas Instruments/Texas Instruments_By_element14_Batch_1.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/sparkfun-SparkFun-Eagle-Library-683dd3d/SparkFun.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="5 1 984 1137"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
