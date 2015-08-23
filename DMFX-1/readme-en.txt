@@ -1,10 +1,10 @@
 DMFX-1 v1.0
 Manufacturing info:
 
-Bill of Materials:              DMFX-1_BoM.xls
+Bill of Materials:              DMFX-1 v1.0_BoM.xls
 
-Assembly drawing Top:           DMFX-1 v1.0.assytop.pdf
-Assembly Drawing Bottom:        DMFX-1 v1.0.assybot.pdf
+Assembly drawing Top:           DMFX-1 v1.0_assytop.pdf
+Assembly Drawing Bottom:        DMFX-1 v1.0_assybot.pdf
 
 Pick & Place Top:               DMFX-1 v1.0.mnt
 Pick & Place Bottom:            DMFX-1 v1.0.mnb
