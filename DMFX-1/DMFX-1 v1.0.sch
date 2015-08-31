@@ -27031,7 +27031,7 @@ drill 1.3 mm</description>
 <part name="Q6" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="2N7002ET1G">
 <attribute name="MPN" value="2N7002ET1G"/>
 </part>
-<part name="C196" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1u">
+<part name="C196" library="SparkFun" deviceset="CAP" device="0402-CAP" value="2.2n">
 <attribute name="MPN" value="GRM155R71H222JA01J"/>
 </part>
 <part name="R186" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k">

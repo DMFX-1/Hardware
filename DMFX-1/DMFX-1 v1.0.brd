@@ -7335,7 +7335,7 @@ design rules under a new name.</description>
 <element name="Q6" library="adafruit" package="SOT23" value="2N7002ET1G" x="21.844" y="25.908" rot="R270">
 <attribute name="MPN" value="2N7002ET1G" x="21.844" y="25.908" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C196" library="SparkFun" package="0402-CAP" value="0.1u" x="31.242" y="29.21" rot="R180">
+<element name="C196" library="SparkFun" package="0402-CAP" value="2.2n" x="31.242" y="29.21" rot="R180">
 <attribute name="MPN" value="GRM155R71H222JA01J" x="31.242" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R186" library="SparkFun" package="0402-RES" value="10k" x="31.242" y="30.734">
@@ -17102,69 +17102,6 @@ design rules under a new name.</description>
 <wire x1="107.375" y1="60.5" x2="107.375" y2="61.35" width="0.125" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,c4b0c6b2c6b2c4b0"/>
-<approved hash="3,16,e080e282e282e080"/>
-<approved hash="3,2,661e46e646e16619"/>
-<approved hash="3,1,0730f708f7cf07f7"/>
-<approved hash="3,16,661e46e646e16619"/>
-<approved hash="3,3,661e46e646e16619"/>
-<approved hash="3,16,5ab02686709a7b85"/>
-<approved hash="3,16,770a1d321d32770a"/>
-<approved hash="3,16,3c303c6005b00428"/>
-<approved hash="3,5,9ece263626669e9e"/>
-<approved hash="3,5,fe3fe0c7e087fe7f"/>
-<approved hash="3,5,02fe060606b90241"/>
-<approved hash="3,4,d072884a880ad032"/>
-<approved hash="3,4,04bfe487e444047c"/>
-<approved hash="3,4,fe3fe0c7e087fe7f"/>
-<approved hash="3,5,fedee626e7eeff16"/>
-<approved hash="3,4,fedee626e7eeff16"/>
-<approved hash="3,2,fe8e267621a6f95e"/>
-<approved hash="3,3,fe8e267621a6f95e"/>
-<approved hash="3,4,5ad9fa21fa615a99"/>
-<approved hash="3,4,0606fef6feee061e"/>
-<approved hash="3,4,261f7efe8ed63616"/>
-<approved hash="3,4,16fe0606060716ff"/>
-<approved hash="3,4,661f7eff5ed60616"/>
-<approved hash="3,5,fd2e0dd60de6fd1e"/>
-<approved hash="3,4,fd2e0dd60de6fd1e"/>
-<approved hash="3,5,12de002600e6121e"/>
-<approved hash="3,5,66c1c639c6e16619"/>
-<approved hash="3,4,12de002600e6121e"/>
-<approved hash="3,4,66c1c639c6e16619"/>
-<approved hash="3,5,9ade042604e69a1e"/>
-<approved hash="3,4,9ade042604e69a1e"/>
-<approved hash="3,5,d2d9ea21ea68d290"/>
-<approved hash="3,4,23dcdfe4dfbd2385"/>
-<approved hash="3,16,bd2bbd06591e4f07"/>
-<approved hash="3,16,1e1d262526251e1d"/>
-<approved hash="3,16,cc31ec6135b13429"/>
-<approved hash="3,5,fafe2a062bbefb46"/>
-<approved hash="3,4,fafe2a062bbefb46"/>
-<approved hash="3,4,0666e398fdde3820"/>
-<approved hash="3,4,5ade0a260a665a9e"/>
-<approved hash="3,4,06065ef67eee661e"/>
-<approved hash="3,4,061efefefed60616"/>
-<approved hash="3,4,66fe0606060666fe"/>
-<approved hash="3,4,e61e7efe6ed61616"/>
-<approved hash="3,1,7ee344db449b7ea3"/>
-<approved hash="3,5,928e067601a6955e"/>
-<approved hash="3,4,928e067601a6955e"/>
-<approved hash="3,2,befe06060606befe"/>
-<approved hash="3,1,e284dabcdabce284"/>
-<approved hash="3,16,e284dabcdabce284"/>
-<approved hash="3,3,befe06060606befe"/>
-<approved hash="19,1,8914d68cd8988700"/>
-<approved hash="19,1,8130dea8d86a87f2"/>
-<approved hash="19,1,8598da00db6684fe"/>
-<approved hash="19,1,5511f889f69b5b03"/>
-<approved hash="19,1,5d35f0adf6695bf1"/>
-<approved hash="19,1,599df405f56558fd"/>
-<approved hash="19,1,3934e2ace46c3ff4"/>
-<approved hash="19,1,3110ea88e49e3f06"/>
-<approved hash="19,1,3d9ce604e7603cf8"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
