@@ -27639,6 +27639,12 @@ drill 1.3 mm</description>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="NC"/>
 <part name="R24" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="NC"/>
 <part name="U$120" library="rezzonics" deviceset="VCC_3V3" device=""/>
+<part name="R26" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="0">
+<attribute name="MPN" value="ERJ-2GE0R00X"/>
+</part>
+<part name="R31" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="0">
+<attribute name="MPN" value="ERJ-2GE0R00X"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -30704,6 +30710,12 @@ I2C SEEPROM</text>
 <attribute name="MPN" x="294.64" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$171" gate="G$1" x="294.64" y="190.5"/>
+<instance part="R26" gate="G$1" x="147.32" y="50.8">
+<attribute name="MPN" x="147.32" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R31" gate="G$1" x="147.32" y="40.64">
+<attribute name="MPN" x="147.32" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31081,8 +31093,15 @@ I2C SEEPROM</text>
 <net name="I2C2_SCL" class="0">
 <segment>
 <pinref part="U10X" gate="G$1" pin="SCL"/>
-<wire x1="86.36" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="53.34" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="48.26" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="73.66" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<junction x="66.04" y="48.26"/>
 </segment>
 </net>
 <net name="I2C2_SDA" class="0">
@@ -31092,6 +31111,9 @@ I2C SEEPROM</text>
 <pinref part="U10X" gate="G$1" pin="SDA"/>
 <wire x1="116.84" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
 <label x="53.34" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
+<junction x="116.84" y="40.64"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -31262,6 +31284,20 @@ I2C SEEPROM</text>
 <pinref part="R52-1" gate="G$1" pin="1"/>
 <pinref part="U9-2" gate="G$1" pin="WP"/>
 <wire x1="294.64" y1="180.34" x2="284.48" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<label x="198.12" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="198.12" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -31741,7 +31777,6 @@ Clock Buffer</text>
 <pinref part="U$49" gate="G$1" pin="VCC_3V3"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="48.26" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R222X" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
@@ -36901,7 +36936,7 @@ Mute</text>
 <instance part="C192" gate="G$1" x="101.6" y="243.84" rot="R90">
 <attribute name="MPN" x="101.6" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U22" gate="A" x="132.08" y="215.9"/>
+<instance part="U22" gate="A" x="132.08" y="215.9" rot="MR180"/>
 <instance part="U22" gate="P" x="132.08" y="215.9"/>
 <instance part="C190" gate="G$1" x="175.26" y="223.52" rot="R90">
 <attribute name="MPN" x="175.26" y="223.52" size="1.778" layer="96" display="off"/>
@@ -36972,7 +37007,7 @@ Mute</text>
 <instance part="C199" gate="G$1" x="101.6" y="162.56" rot="R90">
 <attribute name="MPN" x="101.6" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U23" gate="A" x="132.08" y="134.62"/>
+<instance part="U23" gate="A" x="132.08" y="134.62" rot="MR180"/>
 <instance part="U23" gate="P" x="132.08" y="134.62"/>
 <instance part="C200" gate="G$1" x="175.26" y="142.24" rot="R90">
 <attribute name="MPN" x="175.26" y="142.24" size="1.778" layer="96" display="off"/>
@@ -37177,7 +37212,7 @@ Mute</text>
 <wire x1="121.92" y1="218.44" x2="121.92" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C189" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="233.68" x2="127" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="U22" gate="A" pin="+IN"/>
+<pinref part="U22" gate="A" pin="-IN"/>
 <wire x1="121.92" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
 <junction x="121.92" y="218.44"/>
 </segment>
@@ -37359,7 +37394,7 @@ Mute</text>
 <wire x1="121.92" y1="137.16" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C197" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U23" gate="A" pin="+IN"/>
+<pinref part="U23" gate="A" pin="-IN"/>
 <wire x1="121.92" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="137.16"/>
 </segment>
@@ -37789,10 +37824,10 @@ Mute</text>
 <segment>
 <wire x1="116.84" y1="205.74" x2="116.84" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="213.36" x2="121.92" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="U22" gate="A" pin="-IN"/>
-<wire x1="121.92" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="203.2" x2="121.92" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="U$164" gate="G$1" pin="V1.65"/>
+<pinref part="U22" gate="A" pin="+IN"/>
+<wire x1="124.46" y1="213.36" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="205.74" x2="157.48" y2="203.2" width="0.1524" layer="91"/>
@@ -37805,10 +37840,10 @@ Mute</text>
 <segment>
 <wire x1="116.84" y1="124.46" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="132.08" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U23" gate="A" pin="-IN"/>
-<wire x1="121.92" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U$166" gate="G$1" pin="V1.65"/>
+<pinref part="U23" gate="A" pin="+IN"/>
+<wire x1="124.46" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="124.46" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
