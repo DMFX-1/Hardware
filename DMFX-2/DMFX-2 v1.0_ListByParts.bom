@@ -1,4 +1,4 @@
-BOM-EX v1.30 exported from C:/Documents and Settings/Diego de la Cruz/My Documents/eagle/DMFX-1/DMFX-2 v1.0.sch at 14/8/2015 17:22:56
+BOM-EX v1.30 exported from C:/Documents and Settings/Diego de la Cruz/My Documents/eagle/DMFX/trunk/DMFX-2/DMFX-2 v1.0.sch at 15/5/2016 19:23:23
 
 Part  Value                     Attributes Package        Description                             Part Num                  Mfg Name              VID Vendor Part Num              Description                       Customer Ref Part Value               
 C156X 1u                                   C0603K         CAPACITOR, European symbol              GRM188R7YA105KA12D        Murata                DK  490-10487-1-ND               CAP CER 1UF 35V 10% X7R 0603      capcer067    1u                       
@@ -55,4 +55,4 @@ VR1X  50k                                  ALPS_POT                             
 VR2X  50k                                  ALPS_POT                                               EVU-F2AF30B54             Panasonic             DK  P3C3503-ND                   POT 50K OHM 1/20W LINEAR          pot010       B50K                     
 VR3X  50k                                  ALPS_POT                                               EVU-F2AF30B54             Panasonic             DK  P3C3503-ND                   POT 50K OHM 1/20W LINEAR          pot010       B50K                     
 VR4X  50k                                  ALPS_POT                                               EVU-F2AF30B54             Panasonic             DK  P3C3503-ND                   POT 50K OHM 1/20W LINEAR          pot010       B50K                     
-VR5   50k                                  ALPS_POT                                               EVU-F2AF30B54             Panasonic             DK  P3C3503-ND                   POT 50K OHM 1/20W LINEAR          pot010       B50K                     
+VR5   5k                                   ALPS_POT                                               EVU-F2AF30B53             Panasonic             DK  P3C3502-ND                   POT 5K OHM 1/20W LINEAR           pot011       B5K                      
